@@ -20,7 +20,7 @@ PODCASTS = [
         title="Konspirationsteorier",
         url="https://www.podplay.com/sv/podcast/96008/konspirationsteorier",
         rss="https://rss.podplaystudio.com/547.xml",
-        rss_parser=TalkPythonItem,
+        rss_parser=BaseItem,
     ),
     Podcast(
         name="talkpython",
