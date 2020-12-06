@@ -16,6 +16,13 @@ class Podcast:
 
 PODCASTS = [
     Podcast(
+        name="konspirationsteorier",
+        title="Konspirationsteorier",
+        url="https://www.podplay.com/sv/podcast/96008/konspirationsteorier",
+        rss="https://rss.podplaystudio.com/547.xml",
+        rss_parser=TalkPythonItem,
+    ),
+    Podcast(
         name="talkpython",
         title="Talk Python To Me",
         url="https://talkpython.fm",
